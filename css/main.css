@@ -302,40 +302,47 @@ padding-left: 70px;
 
 footer{
     background-color: #55775E;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     width: 100%;
     color: white;
 }
 
 .logo-rrss{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 .rrss-footer{
-    padding-left: 50px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
 }
 
 .mapa-armonia{
-    padding-left: 50px;
+    padding: 5%;
 }
 
 .footer-area{
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
-    margin-top: 16px;
     width: 100%;
-    margin-left: 100px;
 }
 
 
 .contact-footer{
-    margin-left: 10px;
-    margin-right: 0px;
+    margin: 10px;
+    padding: 20px;
     text-align: left;
+    align-content: center;
 }
 
+.contact-footer p,h4{
+    text-align: center;
+    padding: 0px;
+}
 
 
 
@@ -559,9 +566,8 @@ text-align: center;
     padding: 30px 30px;
     height: 510px;
     width: 300px;
-    text-align: left;
-    margin-left: 15px;
-    margin-top: 20px;
+    text-align: center;
+    margin: 20px;
 }
 
 .productos img{
@@ -569,6 +575,7 @@ text-align: center;
     width: 250px;
     margin-bottom: 15px;
     align-content: center;
+    margin-left: 0px;
 }
 
 .cards-productos p{
@@ -593,12 +600,11 @@ text-align: center;
     border: none;
     color: white;
     padding: 8px 35px;
-    text-align: center;
     text-decoration: none;
     font-size: 16px;
     border-radius: 30px;
     margin-top: 150px;
-    margin-left: 20%;
+    margin-left: 0%;
     margin-bottom: 16px;
 }
 
