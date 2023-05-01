@@ -325,14 +325,10 @@ footer{
 }
 
 .mapa-armonia{
-    padding: 5%;
+    padding: 0px;
 }
 
-.footer-area{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
+
 
 
 .contact-footer{
