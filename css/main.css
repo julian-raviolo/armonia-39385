@@ -361,6 +361,10 @@ footer{
     margin-top: 40px;
 }
 
+.form-label{
+    padding-right: 8px;
+}
+
 
 #contacto{
 color: azure;
