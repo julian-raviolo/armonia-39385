@@ -355,14 +355,11 @@ footer{
 .formulario{
     background-image: url(../assets/back-contact.jpg);
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 250%;
     height: 600px;
     margin-left: 0px;
     margin-top: 40px;
-}
-
-.form-label{
-    padding-right: 8px;
+    text-align: center;
 }
 
 
