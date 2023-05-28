@@ -335,7 +335,7 @@ textarea {
   margin-left: 100px;
   margin-right: 100px;
   padding-bottom: 20px;
-  margin-top: 15px; }
+  margin-top: 20px; }
 
 .planes {
   display: flex;
@@ -345,21 +345,24 @@ textarea {
   border: solid;
   border-color: #55775E;
   border-radius: 10px;
-  margin: 10px;
+  margin: 15px;
   padding-top: 17px;
   height: 330px;
-  width: 300px;
+  width: 260px;
   text-align: center; }
+  .cards-planes img {
+    margin-bottom: 10px; }
 
 .planes-lista {
-  list-style-type: circle;
-  text-align: center; }
+  list-style-type: none;
+  padding-right: 20px; }
 
 .plan-adulto {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 20px; }
 
 /*eventos*/
 .eventos {
