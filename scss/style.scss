@@ -409,6 +409,8 @@ textarea{
     margin-left: 100px;
     margin-right: 100px;
     padding-bottom: 20px;
+    margin-top: 15px;
+
 }
 
 .planes{
@@ -420,15 +422,17 @@ textarea{
 border: solid;
 border-color: #55775E;
 border-radius: 10px;
-margin: 10px 10px 20px 80px;
-padding: 30px 30px ;
-height: 300px;
-width: 200px;
+margin: 15px;
+padding-top: 17px;
+height: 330px;
+width: 300px;
 text-align: center;
+
 }
 
 .planes-lista{
     list-style-type: circle;
+    text-align: center;
 }
 
 
