@@ -25,20 +25,20 @@ body {
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 10%S; }
+  margin-bottom: 10%; }
 
 /* index style*/
 .services {
-  margin-top: 25px;
+  margin-top: 30px;
   margin-bottom: 25px;
   text-align: center;
   align-content: center; }
   .services img {
-    height: 151px;
-    width: 151px;
-    margin-top: 10px; }
+    height: 140px;
+    width: 140px;
+    margin-top: 20px; }
   .services h3 {
-    margin-top: 10px; }
+    margin-top: 13px; }
 
 /*instalaciones*/
 .instalaciones {
@@ -46,15 +46,17 @@ body {
   align-content: center; }
   .instalaciones h2 {
     font-size: 40px;
-    text-align: center;
     margin-bottom: 20px;
-    width: 100%; }
-  .instalaciones img {
-    border-radius: 30px;
-    height: 270px;
-    width: 275px;
-    margin-top: 10px;
-    margin-left: 5px; }
+    margin-top: 15px;
+    text-align: center; }
+
+.gallery img {
+  border-radius: 20px;
+  height: 290px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px; }
 
 /* primer banner style*/
 .banner1 {
@@ -68,14 +70,16 @@ body {
   height: 500px; }
 
 #text-banner1 {
-  padding-top: 100px;
+  padding-top: 140px;
   text-align: right;
   color: white;
   text-shadow: 2px 2px 5px black; }
   #text-banner1 h1 {
-    font-size: 40px; }
+    font-size: 50px; }
   #text-banner1 h2 {
     font-size: 40px; }
+  #text-banner1 p {
+    padding-left: 30px; }
 
 .agendar-visita {
   background-color: white;
@@ -86,8 +90,7 @@ body {
   text-decoration: none;
   font-size: 16px;
   border-radius: 30px;
-  float: right;
-  box-shadow: 1px 1px 9px black; }
+  float: right; }
 
 .espacio {
   background-color: white;
@@ -95,18 +98,19 @@ body {
   height: 100px;
   width: 100%;
   margin-top: -50px;
-  margin-bottom: -90px; }
+  margin-bottom: -50px; }
 
 /* cards style*/
 .cards {
   background-color: #55775E;
   border-radius: 10px;
-  height: 450px;
+  height: 470px;
+  width: 250px;
   text-align: center;
-  padding: 20px;
-  margin-left: 10px;
-  margin-left: 10px;
-  width: 330px; }
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px; }
   .cards img {
     height: 200px;
     width: 200px;
@@ -131,13 +135,14 @@ body {
 .team h2 {
   font-size: 40px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100%;
   padding-top: 20px; }
 
 /*Quienes somos*/
 .quienes-somos {
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 25px; }
   .quienes-somos p {
     text-align: center;
     padding-left: 15px;
@@ -145,7 +150,7 @@ body {
   .quienes-somos h2 {
     text-align: center;
     font-size: 40px;
-    padding-top: 20px; }
+    padding-top: 60px; }
   .quienes-somos img {
     height: 330px;
     width: 540px;
