@@ -295,34 +295,6 @@ textarea {
   .cards-planes h5 {
     margin-bottom: 10px; }
 
-.agendar-visita {
-  background-color: #55775E;
-  border: none;
-  padding: 8px 35px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 30px;
-  float: right;
-  color: white; }
-
-/*Quienes somos*/
-.quienes-somos {
-  margin-top: 20px;
-  margin-bottom: 25px; }
-  .quienes-somos p {
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px; }
-  .quienes-somos h2 {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 60px; }
-  .quienes-somos img {
-    height: 330px;
-    width: 540px;
-    border-radius: 20px; }
-
 .met2 {
   background-repeat: no-repeat;
   background-color: #FF5F01;
@@ -335,13 +307,13 @@ textarea {
   margin-top: 30px; }
   .met2 h2 {
     margin-top: 10%;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 10%; }
   .met2 img {
     height: 270px;
     width: 280px;
-    margin-left: 20%;
-    padding-right: 10%;
+    margin-left: 23%;
+    padding-right: 0%;
     margin-top: 10px; }
   .met2 p {
     padding-left: 10%;
@@ -365,8 +337,22 @@ textarea {
     padding-left: 10%;
     padding-right: 15%; }
 
-/*planes*/
-/*eventos*/
+.quienes-somos {
+  margin-top: 20px;
+  margin-bottom: 25px; }
+  .quienes-somos p {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .quienes-somos h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px; }
+  .quienes-somos img {
+    height: 330px;
+    width: 540px;
+    border-radius: 20px; }
+
 .eventos {
   display: flex;
   padding-top: 30px; }
@@ -400,29 +386,6 @@ textarea {
     border-radius: 10px;
     margin-left: 25px; }
 
-/*tienda*/
-.productos {
-  padding: 10px;
-  padding-bottom: 40px;
-  width: 100%; }
-  .productos img {
-    height: 250px;
-    width: 250px;
-    margin-bottom: 15px;
-    align-content: center;
-    margin-left: 0px; }
-  .productos p {
-    padding-left: 0px;
-    text-align: center; }
-  .productos h3 {
-    text-align: center;
-    padding-left: 0px;
-    margin-bottom: 20px; }
-  .productos h5 {
-    text-align: center;
-    padding-left: 0px;
-    margin-bottom: 22px; }
-
 .cards-productos {
   border: solid;
   border-color: #55775E;
@@ -447,3 +410,36 @@ textarea {
 
 .btn btn-primary {
   background-color: #FF5F01; }
+
+.productos {
+  padding: 10px;
+  padding-bottom: 40px;
+  width: 100%; }
+  .productos img {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 15px;
+    align-content: center;
+    margin-left: 0px; }
+  .productos p {
+    padding-left: 0px;
+    text-align: center; }
+  .productos h3 {
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 20px; }
+  .productos h5 {
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 22px; }
+
+.agendar-visita {
+  background-color: #55775E;
+  border: none;
+  padding: 8px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 30px;
+  float: right;
+  color: white; }

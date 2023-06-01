@@ -1,0 +1,39 @@
+.eventos{
+    display: flex;
+    padding-top: 30px;
+    p{
+        margin-left: 100px;
+        margin-right: 140px;
+        text-align: center;
+    }
+    h3{
+        margin-left: 100px;
+        padding-left: 70px;
+        margin-right: 0px;
+        text-align: center;
+        width: 300px;
+        color: #55775E;
+        font-size: 23px;
+        font-weight:bold;
+    }
+}
+
+.eventos-fila1{
+    flex-direction: column;
+}
+
+.evento-fila2{
+    flex-direction: column;
+}
+
+.cards-eventos{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 25px;
+    }
+}
