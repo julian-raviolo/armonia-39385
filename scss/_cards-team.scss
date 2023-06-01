@@ -1,0 +1,45 @@
+.cards{
+    background-color: #55775E;
+    border-radius: 10px;
+    height: 470px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;  
+        margin-top: 0px;
+        border-style: solid;
+        border-color: #55775E;
+        margin-bottom: 20px;
+    }
+    h5{
+        font-size: 17px;
+        color: aliceblue;
+    }
+    h4{
+        font-size: 24px;
+        color: aliceblue;
+    }
+    p{
+        font-size: 15px;
+        color: aliceblue;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+.team{
+    h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    padding-top: 20px;
+    }
+}

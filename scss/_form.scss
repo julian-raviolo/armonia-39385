@@ -1,0 +1,58 @@
+
+.formulario{
+    background-image: url(../assets/back-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 250%;
+    height: 600px;
+    margin-left: 0px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+#contacto{
+color: azure;
+padding-top: 50px;
+text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 100px;
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        margin-top: 20px;
+    }
+}  
+
+input{
+    width: 200px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.enviar-formulario{  
+    padding-left: 0%;
+    padding-top: 20px;
+    a{
+        background-color: #FF5F01;
+        border: none;
+        color: white;
+        padding: 8px 35px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+}
