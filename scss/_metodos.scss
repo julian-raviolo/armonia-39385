@@ -14,15 +14,17 @@
         padding-right: 10%;
     }
     img{
-        height: 270px;
-        width: 280px;
-        margin-left: 23%;
-        padding-right: 0%;
-        margin-top: 10px;
+        height: auto;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 3%;
     }
     p{
         padding-left: 10%;
         padding-right: 10%;
+        margin-bottom: 5%;
     }
     
 }
@@ -32,18 +34,18 @@
     margin-right: 16px;
     margin-bottom: 15px;
     img{
-        height: 270px;
-        width: 280px;
-        margin-left: 20%;
-        padding-right: 10%;
-        margin-top: 10px;
+        height: auto;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;      
     }
     p{
         padding-left: 10%;
         padding-right: 10%;
     }
     h2{
-        margin-top: 10%;
+        margin-top: 12%;
         padding-left: 10%;
         padding-right: 15%;
     }

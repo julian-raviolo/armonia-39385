@@ -32,6 +32,7 @@ body {
     width: 140px;
     margin-top: 20px; }
   .services h3 {
+    font-size: large;
     margin-top: 13px; }
 
 footer {
@@ -78,8 +79,8 @@ footer {
     text-align: center; }
 
 .gallery img {
-  border-radius: 20px;
-  height: 290px;
+  border-radius: 30px;
+  height: 300px;
   width: 300px;
   margin-top: 10px;
   margin-left: 5px;
@@ -182,8 +183,8 @@ footer {
 .cards {
   background-color: #55775E;
   border-radius: 10px;
-  height: 470px;
-  width: 250px;
+  height: auto;
+  width: auto;
   text-align: center;
   padding: 10px;
   margin-left: 5px;
@@ -198,17 +199,17 @@ footer {
     border-color: #55775E;
     margin-bottom: 20px; }
   .cards h5 {
-    font-size: 17px;
+    font-size: 20px;
     color: aliceblue; }
   .cards h4 {
     font-size: 24px;
     color: aliceblue; }
   .cards p {
-    font-size: 15px;
+    font-size: 14px;
     color: aliceblue;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px; }
+    padding-bottom: 10px; }
 
 .team h2 {
   font-size: 40px;
@@ -274,10 +275,14 @@ textarea {
 
 .plan {
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding-bottom: 20px;
   margin-top: 20px; }
+  .plan p {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px; }
 
 .cards-planes {
   border: solid;
@@ -286,7 +291,8 @@ textarea {
   padding-top: 17px;
   margin-bottom: 15px;
   text-align: center;
-  align-self: center; }
+  align-self: center;
+  height: 320px; }
   .cards-planes img {
     margin-bottom: 10px; }
   .cards-planes li {
@@ -310,30 +316,32 @@ textarea {
     padding-left: 10%;
     padding-right: 10%; }
   .met2 img {
-    height: 270px;
-    width: 280px;
-    margin-left: 23%;
-    padding-right: 0%;
-    margin-top: 10px; }
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%; }
   .met2 p {
     padding-left: 10%;
-    padding-right: 10%; }
+    padding-right: 10%;
+    margin-bottom: 5%; }
 
 .met {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 15px; }
   .met img {
-    height: 270px;
-    width: 280px;
-    margin-left: 20%;
-    padding-right: 10%;
-    margin-top: 10px; }
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .met p {
     padding-left: 10%;
     padding-right: 10%; }
   .met h2 {
-    margin-top: 10%;
+    margin-top: 12%;
     padding-left: 10%;
     padding-right: 15%; }
 
@@ -391,7 +399,7 @@ textarea {
   border-color: #55775E;
   border-radius: 10px;
   padding: 20px 20px;
-  height: 510px;
+  height: 440px;
   width: 290px;
   text-align: center;
   margin: 10px; }
